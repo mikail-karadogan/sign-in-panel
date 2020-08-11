@@ -1,0 +1,15 @@
+nav {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 80px;
+}
+nav ul li a {
+    margin-left: 5px;
+    padding: 0.5rem 0.2rem;
+}
+/*products section  */
+#products {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    height: auto;
+    display: flex;
+    margin: auto;
+    box-shadow: 3px 0px 40px 0px rgb(197, 180, 180);
+    margin-top: 13%;
+    border-radius: 20px;
+}
+h1{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: cursive;
+}
+button {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(240, 58, 38);
+    display: block;
+    margin: 20px auto;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+button:hover{
+    background-color: rgb(30, 189, 30);
+    color: white ;
+    transition: 0.5s;
+}
+#password{
+    margin-top: 20px;
+}
+input{
+    width: 300px;
+    height: 30px;
+    border: 1px solid rgb(231, 212, 212);
+    border-radius: 5px;
+    padding-left: 10px;
+    opacity: 0.6;
+}
+input:focus{
+    color: rgb(33, 206, 33);
+    outline-color: rgb(240, 58, 38);
+    opacity: 0.8;
+}
+input::placeholder{
+    padding-left: 5px;
+}
+#dis{
+    text-align: center;
+    margin-top: 20px;
+}
+.kayit{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.kayit a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    font-family: cursive;   
+    margin-top: 10px;
+}
+.kayit a:hover{
+    font-size: 1rem;
+    border-bottom: 5px solid rgb(35, 209, 35);
+    padding: 5px;
+    transition: 0.6s;
+}
+.kayit a +a {
+    margin-left: 30px;
+}
+p{
+    color: white;
+}
+body{
+    background-image: url(../images/image.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    animation: myanimation 60s infinite normal;
+    -webkit-animation: myanimation 60s infinite normal;
+    -moz-animation: myanimation 60s infinite normal;
+    background-size: cover;
+}
+@keyframes myanimation {
+    10%{
+        background-image: url(../images/agriculture-close-up-delicious-eating-healthy-260426.jpg);
+    }
+    20%{
+        background-image: url(../images/aroma-beverage-blur-citrus-96974.jpg);
+    }
+    30%{
+        background-image: url(../images/banana-fruit-on-wood-crate-2238309.jpg);
+    }
+    40%{
+        background-image: url(../images/food-forest-blueberries-raspberries-87818.jpg);
+    }
+    50%{
+        background-image: url(../images/grape-fruits-708777.jpg);
+    }
+    60%{
+        background-image: url(../images/red-round-fruit-65256.jpg);
+    }
+    70%{
+        background-image: url(../images/sliced-dragon-fruits-on-plate-1437598.jpg);
+    }
+    80%{
+        background-image: url(../images/sliced-fruits-on-tray-1132047.jpg);
+    }
+    90%{
+        background-image: url(../images/sliced-orange-fruits-1002778.jpg);
+    }
+    100%{
+        background-image: url(../images/sliced-strawberries-banana-and-blackberries-1120581.jpg);
+    }
+}

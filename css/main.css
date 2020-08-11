@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+html {
+    font-family: 'Baloo Da 2', cursive;
+}
+nav {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav h1 {
+    color: white;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    line-height: 70px;
+    height: 70px;
+}
+nav ul li a{
+    color: white;
+    padding:1rem;
+}
+nav ul li a:hover {
+    background-color: white;
+    color: rgb(218, 94, 22);
+    border-radius: 10px;
+    padding: 5px 15px;
+    transition: 0.8s;
+    
+}
+/* section bölümü */
+#section {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#section img {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+#section p {
+    display: flex;
+    justify-content: center;
+    opacity: 0.5;
+}
+#section a {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    padding: 0.5rem 5rem;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+#section a:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    transition: 0.8s;
+}
+#section h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+/* products section */
+h3 {
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background-color:rgb(226, 32, 32) ;
+    color: black;
+    font-size: 2rem;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+#products {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.door {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.door img {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+.door p {
+    margin: 30px;
+    letter-spacing: 2px;
+}
+.door a {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    padding: 0.5rem 5rem;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.door a:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    transition: 0.8s;
+}
+.h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+}
+.icon ul li a {
+    padding: 30px;
+    display: flex;
+    font-size: 40px;
+}
+.icon ul li a:hover {
+    opacity: 0.6;
+}
+.icon ul {
+    list-style-type: none;
+    display: flex;
+}
+h4 {
+    display: flex;
+    justify-content: center;
+}
+.ic img {
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
